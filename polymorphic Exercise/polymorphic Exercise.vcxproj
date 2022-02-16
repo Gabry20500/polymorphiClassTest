@@ -141,7 +141,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Class\Shape.cpp" />
+    <ClCompile Include="Class\Square.cpp" />
     <ClCompile Include="polymorphic Exercise.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Class\Shape.h" />
+    <ClInclude Include="Class\Square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
